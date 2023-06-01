@@ -16,7 +16,7 @@ export default function MyComponent() {
   return (
     <div>
       <h1>
-        My current viewport size is: <span>${current}</span>
+        My current viewport size is: <span>{current}</span>
       </h1>
     </div>
   );
