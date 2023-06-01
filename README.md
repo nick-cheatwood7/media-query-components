@@ -36,9 +36,11 @@ export default function MyComponent() {
   return (
     <div>
       <Breakpoint size='xs'>
+        {/* Not much space here, so render mobile layout */}
         <MobileLayout />
       </Breakpoint>
       <Breakpoint size='md'>
+        {/* Enough space for a sidebar and some content */}
         <Sidebar />
         <Content />
       </Breakpoint>
